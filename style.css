@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  
+  .app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    margin: 20px 0px 10px 60px;
+    text-align: center;
+    font-size: 50px;
+    text-transform: capitalize;
+    font-family: 'Nosifer', cursive;
+    background: -webkit-linear-gradient(top,#d36060,#380101);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+
+    
+  }
+  .fa-headphones{
+    background: -webkit-radial-gradient(ellipse,#d36060 4%,#380101 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow:2px 4px 3px rgba(102, 202, 205, 0.2);
+    
+  }
+  header p {
+    font-size: 25px;
+    font-family: "Raleway", sans-serif;
+    
+  }
+  
+.pads{
+    background-color: lightblue;
+    width: 100%;
+    display: flex;
+}
+.pads > div {
+    height: 100px;
+    width: 100px;
+    flex: 1;
+    
+}
+.pad1 {
+    background: #60d394;
+  }
+  .pad2 {
+    background: #d36060;
+  }
+  .pad3 {
+    background: #c060d3;
+  }
+  .pad4 {
+    background: #d3d160;
+  }
+  .pad5 {
+    background: #606bd3;
+  }
+  .pad6 {
+    background: #60c2d3;
+  }
+  
+  .fa-music{
+    background: -webkit-linear-gradient(bottom,#d36060,#d3d160,#60c2d3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow:2px 4px 3px rgba(102, 202, 205, 0);
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  @keyframes jump{
+      0%{
+          bottom: 0%;
+          left:20%;
+      }
+      50%{
+        bottom:50%;
+        left:50%;
+      }
+      100%{
+        bottom:0%;
+        left:80%;
+      }
+  }
+  .visual > div{
+      position: absolute;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      bottom: 0%;
+      z-index: -1;
+  }
+  img{
+      width: 1180px;
+      height:315px;
+   
+  }
